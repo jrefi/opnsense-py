@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.cache/
+
+# Poetry
+poetry.lock
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docs build artefacts
+opnsense-docs/
+
+# Claude Code
+.claude/
+
+# Editors
+.vscode/
+.idea/
+*.swp
